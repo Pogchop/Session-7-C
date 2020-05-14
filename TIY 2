@@ -1,0 +1,20 @@
+#include <stdio.h>
+
+void main()
+{
+    int a;
+    int b;
+    
+    printf("Enter a: ");
+    scanf("%d",&a);
+    
+    printf("Enter b: ");
+    scanf("%d",&b);
+    
+    if (a*b>1000)
+    printf("The product is greater than 100;0");
+    else if (a*b == 1000)
+    printf("The product is equal to 1000");
+    else
+    printf("The product is smaller than 1000");
+}
