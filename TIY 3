@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+void main()
+{
+    int a;
+    int b;
+    int c;
+    printf("Enter a: ");
+    scanf("%d",&a);
+    
+    printf("Enter b: ");
+    scanf("%d",&b);
+    c=a-b;
+    if (c!=a && c!=b)
+    printf("Difference is not equal to any value");
+    else if (c=a)
+    printf("Difference is equal to value a");
+    else
+    printf("Difference is equal to value b");
+    
+}
