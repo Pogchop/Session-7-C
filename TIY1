@@ -1,0 +1,18 @@
+#include <stdio.h>
+
+void main()
+{
+    int a;
+    int b;
+    
+    printf("a = ");
+    scanf("%d",&a);
+    printf("\nb = ");
+    scanf("%d",&b);
+    if (a%b == 0)
+    printf("\na is divisible by b");
+    else
+    printf("\na is not divisible by b");
+    
+    
+}
