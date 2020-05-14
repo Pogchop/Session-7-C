@@ -1,0 +1,19 @@
+#include <stdio.h>
+
+void main()
+{
+    char money;
+    
+    printf("Enter grade (A - Z): ");
+    scanf("%c",&money);
+    
+    switch(money)
+    {
+        case 'A' : printf("Allowance = 300");
+        break;
+        case 'B' : printf("Allowance = 250");
+        break;
+        default : printf("Allowance = 100");
+        break;
+    }
+}
